@@ -1,0 +1,11 @@
+Cassette Tape Animation<br>
+Only the area within the red frame of the entire image becomes the animation frame.<br>
+The area outside the frame is fixed, so it must be adjusted to avoid distortion with the animation frame.<br>
+The music playback frame has 12 frames.<br>
+Aligning with the 6 tabs, 6/360 degrees = 60 degrees → 12/60 degrees → 5 degrees rotation per frame.<br>
+The volume adjustment frame has 5 frames.<br>
+Aligning with the 6 tabs, 6/360 degrees = 60 degrees → 5/60 degrees → 12 degrees rotation per frame.<br>
+The rotation angle of each frame must be such that the rotation of the tape image does not become distorted.<br>
+In the case of the open reel used in my WM-W800-style creation, there is an opening in the reel every 1/3 rotation, so it is necessary to rotate 1/3 of a turn, and the rotation is doubled to 10 degrees per frame.<br>
+By making the base screen of the music playback frame look like the cassette has been removed, when playback stops → screen turns off → screen turns on, the base screen is displayed, creating the effect of the cassette being removed.<br>
+However, this assumes that the image does not become distorted with the area outside the frame.
